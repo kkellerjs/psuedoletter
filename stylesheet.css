@@ -1,0 +1,62 @@
+/* layout **********************/
+
+* {
+  font-size: 1em;
+  background-color: white;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background-color: #FAFAFA;
+  line-height: 2.5;
+}
+
+textarea {
+ width: 100%;
+ height: 150px; /* media query here*/
+ line-height: 1.2;
+}
+
+
+#inner {
+  display: block;
+  padding: 10px; /* media query here*/
+  width: 500px; /* media query here*/
+}
+
+
+
+/* text *************************/
+
+h1 {
+  color: DarkSlateGray;
+}
+
+#content, #info{
+  display: block;
+  text-align: left;
+  margin: 20px 0; /* media query here*/
+}
+
+input {
+  height: 20px; /* media query here*/
+  vertical-align: middle;
+  font-size:1em; /* adjust when adjust main size*/
+  background-color: white;
+/*  color: DarkOliveGreen; */
+  line-height: 1;
+}
+
+
+
+/* buttons ***************************/
+#next, #back, #clear {
+  cursor: pointer;
+  text-transform: capitalize;
+  background-color: lightgrey;
+  border: 6px solid #FAFAFA; /* transparent */ /* media query here*/
+  display: inline-block;
+  border-radius: 10px;
+  padding: 7px;  /* media query here*/
+}
+
+#buttons { /* div */
+  text-align: center;
+}
