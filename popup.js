@@ -1,9 +1,6 @@
 $(function() { //************************************************************************************************************
 
 
-//apostrophe's not saving in user input
-//auto fill company name after first page?
-
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //LETTER OBJECT CONTAINS COVER LETTER TEXT PROPERTIES
@@ -94,7 +91,7 @@ var letter = {
   //..........................................................
   //FUNCTION TO ADD INSERT INPUT BOXES INTO TEMPLATE TEXT
   
-  add_input_boxes: function(string) {  
+    add_input_boxes: function(string) {  
     
     //return the original string with the input box inserted within it
     //if no calls for input boxes, return string untouched
@@ -120,9 +117,9 @@ var letter = {
       
       //add input box
       if (!placeholder) {
-        inputTxt = "<input type='text' value='" + insert + "'>";
+        inputTxt = "<input type=\"text\" value=\"" + insert + "\">";
       } else {
-        inputTxt = "<input type='text' placeholder = " + letter[navigate.currentPage].placeholders[i] + ">";
+        inputTxt = "<input type=\"text\" placeholder = " + letter[navigate.currentPage].placeholders[i] + ">";
       }
       
       string = string.replace(original, inputTxt);
