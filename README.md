@@ -12,5 +12,4 @@ Be sure to update the placeholder text array when adding a form field/textarea.
 Also update letter.pages_total.
 
 Issues: 
-Not storing user's apostrophes.
 Need to add media queries for popup dimensions.
